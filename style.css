@@ -1,0 +1,9 @@
+body {
+    background-color: #1DB954;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    .container {
+        width: 800px;
+    }
+}
