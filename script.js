@@ -5,5 +5,10 @@ console.log(artistInput);
 console.log(searchButton);
 
 searchButton.addEventListener("click", function() {
-    console.log(artistInput.value);
+    const artistName = artistInput.value.trim();
+    if (artistName === "") {
+        alert("Please enter an artist name.");
+        return;
+    }
+    console.log(artistName);
 });
