@@ -10,5 +10,6 @@ searchButton.addEventListener("click", function() {
         alert("Please enter an artist name.");
         return;
     }
-    console.log(artistName);
+    getAccessToken();
+
 });
